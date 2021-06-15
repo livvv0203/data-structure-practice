@@ -8,8 +8,8 @@ import java.util.ArrayList;
 public class FileProcessor {
 
     // Store file name in variables to avoid hard code
-    String fileNameCar = "/Users/olivianoliu/Desktop/Java/Github/data-structure-practice/src/com/jieqing/car_info.txt";
-    String fileNamePerson = "/Users/olivianoliu/Desktop/Java/Github/data-structure-practice/src/com/jieqing/person_info.txt";
+    String fileNameCar = "car_info.txt";
+    String fileNamePerson = "person_info.txt";
 
     // Read car_info.txt and store contents in ArrayList
     public static ArrayList<String> ReadFromFile(String fileName) {
