@@ -30,7 +30,7 @@ public class Person {
     }
 
     public String toString() {
-        return String.format("name = %-9s age = %-5d", name, age);
+        return String.format("Name = %-9s Age = %-5d", name, age);
     }
 }
 

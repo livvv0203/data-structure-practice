@@ -1,6 +1,5 @@
 package com.jieqing;
 
-import java.awt.image.VolatileImage;
 import java.util.ArrayList;
 
 public class Analyzer {
@@ -79,7 +78,6 @@ public class Analyzer {
         System.out.println("\nThe youngest person is: " + youngestPerson);
         System.out.println(String.format("\nAverage age is: %.1f", sumOfAge / persons.size()));
     } // end of method
-
 }
 
 

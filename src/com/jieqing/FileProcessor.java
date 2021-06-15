@@ -24,9 +24,16 @@ public class FileProcessor {
             String line;
 
             // Add all lines from file to ArrayList
-            while (( line = bufferedReader.readLine()) != null) {
-                listOfLines.add(line);
-            }
+            do {
+                line = bufferedReader.readLine();
+                if (line == null){
+                    break;
+                }
+                if (line.trim().length() > 0) {
+                    listOfLines.add(line);
+                }
+            }while (true);
+
             bufferedReader.close();
         } catch (FileNotFoundException ex) {
             System.out.println("File Not Found!");

@@ -45,6 +45,6 @@ public class Car {
     }
 
     public String toString() {
-        return String.format("Make = %-8s Year = %-6d Price = %6d", make, year, price);
+        return String.format("Make = %-10s Year = %-6d Price = %6d", make, year, price);
     }
 }
