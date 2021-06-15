@@ -32,7 +32,7 @@ public class FileProcessor {
                 if (line.trim().length() > 0) {
                     listOfLines.add(line);
                 }
-            }while (true);
+            } while (true);
 
             bufferedReader.close();
         } catch (FileNotFoundException ex) {
